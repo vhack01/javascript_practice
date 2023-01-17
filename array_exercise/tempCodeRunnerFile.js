@@ -1,0 +1,1 @@
+let res = array.reduce((a, b) => (a > b)? a : b);

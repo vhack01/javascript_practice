@@ -1,0 +1,32 @@
+// var a = 5;
+// console.log(a);
+// a++;
+// console.log("after:"+a);
+ 
+
+// let b = "I am \"double\" quotes";
+// console.log(b);
+
+// console.log('\n\n');
+// // concatination
+// s1 = "My name vishwas kumar. \nRecently I joined \\ Lpu collage \nwhich is in punjab ";
+// console.log(s1);
+// cat = 'Java' + 'Script';
+// console.log(cat);
+
+// var s2 = 'Javascript';
+// s2 += ' is scripting language';
+// console.log('\n\n'+s2);
+
+// // ------------String length ---------------
+// var h = 'javaScript';
+// console.log('Length of ' + h +' is ' + h.length);
+// console.log(h[0]);
+
+
+
+
+
+
+
+
