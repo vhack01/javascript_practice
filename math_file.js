@@ -21,5 +21,5 @@ function baseConvert(str, base) {
     return parseInt(str, base);
 }
 
-console.log('Binary Base : ', baseConvert('101011',2));
-console.log('Binary Base : ', baseConvert('12',16));
+console.log('Binary Base : ', baseConvert('101011', 2));
+console.log('Binary Base : ', baseConvert('12', 16));

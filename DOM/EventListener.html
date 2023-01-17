@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            background-color: #6a2044;
+        }
+
+        #main-heading {
+            font-size: 30px;
+            color: #fff;
+            /* border: 1px solid grey; */
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            position: relative;
+            /* left: 26%; */
+            top: 20px;
+        }
+
+        .container>div {
+            float: left;
+            border: 1px solid grey;
+            margin: 1px 40px 0px 10px;
+            border-radius: 8px;
+            padding: 10px 25px 20px 25px;
+            color: #fff;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .container>div button {
+            border: 1px solid grey;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 25px 10px 25px;
+            margin-left: 30%;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id='main-heading'>Event Listeners</h1>
+
+    <div class="container">
+        <div class="boxes box-1">
+            <h1 id="heading">Examples 1</h1>
+            <button onclick='btn1()'>Enter</button>
+        </div>
+        <div class="boxes box-2">
+            <h1 id="heading">Examples 2</h1>
+            <button class="btn-2">Enter</button>
+        </div>
+        <div class="boxes box-3">
+            <h1 id="heading">Examples 3</h1>
+            <button class="btn-3">Enter</button>
+        </div>
+    </div>
+    <script src='eventHandler.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .container {
+            width: 60vw;
+            /* border: 1px solid; */
+            padding: 2rem 4rem;
+        }
+
+        /* task bar */
+        .taskbar {
+            display: flex;
+            border-radius: 30px;
+            background-color: #fff;
+        }
+
+        #taskbar-input {
+            border: 0;
+            font-size: 1.4rem;
+            padding: 2rem 1.5rem;
+            border-radius: 30px;
+            flex-grow: 1;
+        }
+
+        #taskbar-input:focus {
+            outline: none;
+        }
+
+        .btn {
+            height: 64px;
+            width: 64px;
+            outline: none;
+            border: 0;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn>img {
+            height: 3rem;
+            width: 3rem;
+        }
+
+        /* list item */
+        .list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list__item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+            background-color: #fff;
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+        }
+
+
+        .btn--control {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .btn--control .btn {
+            height: 4rem;
+            width: 4rem;
+            margin: 0 0.5rem
+        }
+
+        .btn--control .btn>img {
+            height: 2rem;
+            width: 2rem;
+        }
+
+        .btn--check {
+            background-color: rgb(38, 208, 255);
+            fill: #fff;
+        }
+
+        .btn--delete {
+            background-color: #f73232;
+            fill: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: capitalize;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>To do list</h2>
+        <div class="taskbar">
+            <input type="text" name="" id="taskbar-input" placeholder="Enter the task...">
+            <button type="submit" class="btn btn--add">
+                <img src="./images/add.svg" alt="add">
+            </button>
+        </div>
+        <div class="task-container">
+            <ul class="list">
+
+                <!-- <li class="list__item">
+                    <p>Shopping list</p>
+                    <div class="btn--control">
+                        <button type="submit" class="btn btn--check">
+                            <img src="./images/check.svg" alt="add">
+                        </button>
+                        <button type="submit" class="btn btn--delete">
+                            <img src="./images/delete.svg" alt="add">
+                        </button>
+                    </div>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

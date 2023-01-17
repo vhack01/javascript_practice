@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            background-color: gold;
+        }
+
+        #main-heading {
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            height: 200px;
+            max-width: 80%;
+            position: relative;
+            top: 40px;
+            left: 10%;
+            display: flex;
+            padding-left: 70px;
+            /* border:1px solid grey; */
+        }
+
+        .container .reveal-btn {
+            height: 100%;
+            min-width: 25%;
+            /* max-width: 100%; */
+            color: #FFF;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            background-color: black;
+            padding: 10px 25px 10px 25px;
+            /* margin-top: -10px; */
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container div {
+            color: #333;
+            font-size: 1.3rem;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            margin: 0px 0px 0px 50px;
+            border-radius: 8px;
+            /* padding: 10px 25px 0px 25px; */
+            padding: 1rem 2rem;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .hidden-content {
+            color: #333;
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id='main-heading'>Event Listeners</h1>
+
+    <div class="container">
+        <button class='reveal-btn boxes'>Reveal More</button>
+        <div class="hidden-content boxes">
+            The oldest classical British and Latin writing had little or no space between words and could be written in
+            boustrophedon (alternating directions). Over time, text direction (left to right) became standardized. Word
+            dividers and terminal punctuation became common. The first way to divide sentences into groups was the
+            original paragraphos, similar to an underscore at the beginning of the new group.[1] The Greek parágraphos
+            evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline
+            between sentences.
+        </div>
+
+    </div>
+    <script src='listenerExample.js'></script>
+</body>
+
+</html>
