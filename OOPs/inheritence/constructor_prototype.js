@@ -11,13 +11,13 @@ console.log("__proto__: ", circle.__proto__);
 
 
 const player = {
-    score : 3, 
-    name : 'virat',
+    score: 3,
+    name: 'virat',
     sayHello() {
         console.log(this.name);
     }
 };
-let p1 = Object.create(player); 
+let p1 = Object.create(player);
 console.log(Object.getPrototypeOf(p1) === player);
 
 

@@ -1,6 +1,6 @@
 console.clear();
 let object = {
-    oname : 'ABC'
+    oname: 'ABC'
 };
 
 let ObjectBase = Object.getPrototypeOf(object);
@@ -10,9 +10,9 @@ let descriptor = Object.getOwnPropertyDescriptor(ObjectBase, 'toString');
 // ========= Now to "SET" this property =========
 
 Object.defineProperty(object, 'oname', {
-    writable : false,
-    configurable : false,
-    enumerable : false // when false -> we can't traverse on 'oname' property
+    writable: false,
+    configurable: false,
+    enumerable: false // when false -> we can't traverse on 'oname' property
 });
 
 // delete object.oname;
